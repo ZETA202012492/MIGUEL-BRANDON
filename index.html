@@ -3,54 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinica Veterinaria M.B/title>
+    <title>Veterinaria Animal Care</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <div class="logo">
+            <h1>Veterinaria Animal Care</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="#seccion1">Sección 1</a></li>
-                <li><a href="#seccion2">Sección 2</a></li>
-                <li><a href="#seccion3">Sección 3</a></li>
-                <li><a href="#seccion4">Sección 4</a></li>
-                <li><a href="#seccion5">Sección 5</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="seccion1">
-            <h2>Sección 1</h2>
-            <p>Contenido de la primera sección.</p>
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <p>Ofrecemos una variedad de servicios para el cuidado de tus mascotas:</p>
+            <ul>
+                <li>Consultas veterinarias</li>
+                <li>Vacunación y desparasitaciones</li>
+                <li>Cirugía y emergencias</li>
+                <li>Baño y peluquería</li>
+                <li>Consejos de nutrición</li>
+            </ul>
         </section>
 
-        <section id="seccion2">
-            <h2>Sección 2</h2>
-            <p>Contenido de la segunda sección.</p>
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>En Veterinaria Animal Care, nos dedicamos a brindar el mejor cuidado a tus mascotas. Nuestro equipo de profesionales está comprometido con la salud y bienestar de los animales.</p>
         </section>
 
-        <section id="seccion3">
-            <h2>Sección 3</h2>
-            <p>Contenido de la tercera sección.</p>
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <blockquote>
+                <p>"El mejor lugar para llevar a mi perro. Siempre reciben un trato amable y profesional."</p>
+                <cite>- María López</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Estoy muy agradecida por la atención que recibió mi gato. ¡Recomiendo 100% esta veterinaria!"</p>
+                <cite>- Juan Pérez</cite>
+            </blockquote>
         </section>
 
-        <section id="seccion4">
-            <h2>Sección 4</h2>
-            <p>Contenido de la cuarta sección.</p>
-        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
 
-        <section id="seccion5">
-            <h2>Sección 5</h2>
-            <p>Contenido de la quinta sección.</p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Mi Página Web</p>
+        <p>&copy; 2024 Veterinaria Animal Care. Todos los derechos reservados.</p>
     </footer>
 
 </body>
 </html>
+
