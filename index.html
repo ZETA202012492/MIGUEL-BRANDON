@@ -4,6 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica Veterinaria [Tu Nombre]</title>
+
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #2C3E50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white; /* Texto blanco para contrastar con el fondo */
+}
+
+/* Colores distintivos para cada sección */
+#quienes-somos {
+    background: #3498DB; /* Azul */
+}
+
+#bibliografia {
+    background: #2ECC71; /* Verde */
+}
+
+#equipo {
+    background: #E67E22; /* Naranja */
+}
+
+#especialidades {
+    background: #9B59B6; /* Púrpura */
+}
+
+#motivo {
+    background: #E74C3C; /* Rojo */
+}
+
+#servicios {
+    background: #F1C40F; /* Amarillo */
+}
+
+#contacto {
+    background: #34495E; /* Gris oscuro */
+}
+
+.servicio {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background: #2C3E50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #34495E;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #2C3E50;
+    color: white;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+    </style>
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,6 +156,7 @@
         <nav>
             <ul>
                 <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
                 <li><a href="#equipo">Nuestro Equipo</a></li>
                 <li><a href="#especialidades">Especialidades</a></li>
                 <li><a href="#motivo">Nuestro Motivo</a></li>
